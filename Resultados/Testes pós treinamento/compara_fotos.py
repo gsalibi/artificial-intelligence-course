@@ -1,10 +1,3 @@
-# Often instead of just checking if two faces match or not (True or False), it's helpful to see how similar they are.
-# You can do that by using the face_distance function.
-
-# The model was trained in a way that faces with a distance of 0.6 or less should be a match. But if you want to
-# be more strict, you can look for a smaller face distance. For example, using a 0.55 cutoff would reduce false
-# positive matches at the risk of more false negatives.
-
 # Note: This isn't exactly the same as a "percent match". The scale isn't linear. But you can assume that images with a
 # smaller distance are more similar to each other than ones with a larger distance.
 
