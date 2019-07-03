@@ -1,3 +1,7 @@
+'''
+    Script utilizado para testar o reconhecimento de imagens com ruído.
+'''
+
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
